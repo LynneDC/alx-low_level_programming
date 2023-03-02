@@ -3,36 +3,37 @@
 /**
 * print_buffer - prints buffer
 * @b: buffer
-* @size: size of the buffer pointed by b
+* @size: size
 * Return: void
 */
 void print_buffer(char *b, int size)
 {
-int e, f, g;
-e = 0;
+int o, j, i;
+o = 0;
 if (size <= 0)
 {
 printf("\n");
 return;
 }
-while (e < size)
+while (o < size)
+
 {
-f = size - e < 10 ? size - e : 10;
-printf("%08x: ", e);
-for (g = 0; g < 10; g++)
+j = size - o < 10 ? size - o : 10;
+printf("%08x: ", o);
+for (i = 0; i < 10; i++)
 {
-if (g < f)
-printf("%02x", *(b + e + g));
+if (i < j)
+printf("%02x", *(b + o + i));
 else
 printf(" ");
-if (g % 2)
+if (i % 2)
 {
 printf(" ");
 }
 }
-for (g = 0; g < f; g++)
+for (i = 0; i < j; i++)
 {
-int c = *(b + e + g);
+int c = *(b + o + i);
 if (c < 32 || c > 132)
 {
 c = '.';
@@ -40,6 +41,6 @@ c = '.';
 printf("%c", c);
 }
 printf("\n");
-e += 10;
+o += 10;
 }
 }
