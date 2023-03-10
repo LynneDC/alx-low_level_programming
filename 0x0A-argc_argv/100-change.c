@@ -35,4 +35,4 @@ num -= coins[j];
 }
 printf("%d\n", result);
 return (0);
-
+}
