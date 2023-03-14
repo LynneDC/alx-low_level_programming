@@ -65,6 +65,6 @@ else if (c++ == 0)
 start = i;
 }
 matrix[k] = NULL;
-return (0);
+return (matrix);
 }
 
