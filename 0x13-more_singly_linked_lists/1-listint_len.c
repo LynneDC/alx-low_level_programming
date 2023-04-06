@@ -17,5 +17,5 @@ while (current_node != NULL)
 	count++;
 	current_node = current_node->next;
 }
-return(count);
+return (count);
 }
