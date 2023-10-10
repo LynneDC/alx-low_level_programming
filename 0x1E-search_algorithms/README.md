@@ -70,17 +70,54 @@
    <li> You can assume that array will be sorted in ascending order</li>
    <li> You can assume that value won’t appear more than once in array</li>
    <li> If value is not present in array or if array is NULL, your function must return -1</li>
-   <li>ou must print the array being searched every time it changes</li>
+   <li>you must print the array being searched every time it changes</li>
    </ul>
 
 
   <h3 style="color: #FF645F; margin-left: 40px">
-         2. Contribute!
+         2. Big O #0
   </h3>
   <p>  
-     Folks on the Internet have been trying to put together a comprehensive answer to the question. Help them by submitting a pull request. Paste the link in your answer file.
-  <h4> Requirements: </h4>
-  <li> The pull request must bring meaningful value (not a typo correction or style improvement) </li>
-  <li> Share the pull request URL in your answer file and in the field below </li>   </P>
+      What is the time complexity (worst case) of a linear search in an array of size n?
+  <li> </li>
+  <li> </li> 
+  </P>
+  <h3  style="color: #FF645F; margin-left: 40px">
+         3. Big O #1
+  </h3>
+  <p>
+     What is the space complexity (worst case) of an iterative linear search algorithm in an array of size n?
+  <p>
+   <h3 style="color: #FF645F; margin-left: 40px">
+         4. Big O #2
+  </h3>
+  <p>
+      What is the time complexity (worst case) of a binary search in an array of size n?
+  <li> </li>
+  <li> </li>
+  </P>
+<li> </li>
+  <li> </li>
+  </P>
+  <h3  style="color: #FF645F; margin-left: 40px">
+        5. Big O #3
+  </h3>
+  <p>
+     What is the space complexity (worst case) of a binary search in an array of size n?
+  <li> </li>
+  <li> </li>
+  </P>
+  <h3  style="color: #FF645F; margin-left: 40px">
+         6. Big O #4
+  </h3>
+  <p>
+     What is the space complexity of this function / algorithm?
+  <p><li> </li>
+  <li> </li>
+  </P>
+  <h2  style="color: #FF645F; margin-left: 40px">
+         TASK: ADVANCED
+  </h2>
+  <p><p>
  </body>
 </html>
