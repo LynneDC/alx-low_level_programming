@@ -48,13 +48,13 @@
   <p> 
    Write a function that searches for a value in an array of integers using the <a href="https://intranet.alxswe.com/rltoken/17RKhbmvh_u4ebCwaSxCxg">linear search algorithm</a>.
    <h4> Prototype : int linear_search(int *array, size_t size, int value); </h4>
-   <ol>
+   <ul>
   	<li>Where array is a pointer to the first element of the array to search in</li>
         <li>size is the number of elements in array</li>
         <li>And value is the value to search for</li>
         <li>Your function must return the first index where value is located</li>
         <li>If value is not present in array or if array is NULL, your function must return -1</li>
-  </ol>
+  </ul>
   </p>
   <h3 style="color: #FF645F; margin-left: 40px">
          1. Everything's better with a pretty diagram
