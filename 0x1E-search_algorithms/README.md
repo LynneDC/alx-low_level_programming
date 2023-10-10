@@ -79,8 +79,6 @@
   </h3>
   <p>  
       What is the time complexity (worst case) of a linear search in an array of size n?
-  <li> </li>
-  <li> </li> 
   </P>
   <h3  style="color: #FF645F; margin-left: 40px">
          3. Big O #1
@@ -93,27 +91,18 @@
   </h3>
   <p>
       What is the time complexity (worst case) of a binary search in an array of size n?
-  <li> </li>
-  <li> </li>
-  </P>
-<li> </li>
-  <li> </li>
   </P>
   <h3  style="color: #FF645F; margin-left: 40px">
         5. Big O #3
   </h3>
   <p>
      What is the space complexity (worst case) of a binary search in an array of size n?
-  <li> </li>
-  <li> </li>
   </P>
   <h3  style="color: #FF645F; margin-left: 40px">
          6. Big O #4
   </h3>
   <p>
      What is the space complexity of this function / algorithm?
-  <p><li> </li>
-  <li> </li>
   </P>
   <h2  style="color: #FF645F; margin-left: 40px">
          TASK: ADVANCED
