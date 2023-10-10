@@ -57,23 +57,22 @@
   </ul>
   </p>
   <h3 style="color: #FF645F; margin-left: 40px">
-         1. Everything's better with a pretty diagram
+         1. Binary search
   </h3>
   <p>
-    Add a schema to your blog post illustrating the flow of the request created when you type https://www.google.com in your browser and press Enter
-   <h4>The diagram should show:</h4>
+    Write a function that searches for a value in a sorted array of integers using the <a href="https://intranet.alxswe.com/rltoken/SnveFJhSDE7o8bEx-kGGpA">Binary Search Algorithm</a>.
+   <h4>int binary_search(int *array, size_t size, int value);</h4>
    <ul>
-   <li>DNS resolution</li>
-   <li> that the request hitting server IP on the appropriate port</li>
-   <li> that the traffic is encrypted</li>
-   <li> that the traffic goes through a firewall</li>
-   <li> that the request is distributed via a load balancer</li>
-   <li> that the web server answers the request by serving a web page</li>
-   <li> that the application server generates the web page</li>
-   <li> that the application server request data from the database</li>
+   <li>Where array is a pointer to the first element of the array to search in</li>
+   <li>size is the number of elements in array</li>
+   <li> And value is the value to search for</li>
+   <li> Your function must return the index where value is located</li>
+   <li> You can assume that array will be sorted in ascending order</li>
+   <li> You can assume that value won’t appear more than once in array</li>
+   <li> If value is not present in array or if array is NULL, your function must return -1</li>
+   <li>ou must print the array being searched every time it changes</li>
    </ul>
-   <img src="http://i.imgur.com/i9ivkdo.png" alt="web server" />
-   <img src="http://i.imgur.com/R8R3sqC.png" alt="web server back" />
+
 
   <h3 style="color: #FF645F; margin-left: 40px">
          2. Contribute!
