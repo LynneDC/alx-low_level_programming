@@ -26,11 +26,17 @@
    </p>
 
    <h2 style="color: #FF645F; margin-left: 40px">
-     Requirements
+     REQUIREMENTS
    </h2>
    <ol>
-      <li> post your blog post on  LinkedIn or Medium  </li>
-      <li>README.md file, at the root of the folder of the project</li>
+   <i>
+      <li> Allowed editors: vi, vim, emacs  </li>
+      <li> All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89 </li>
+      <li> Your code should use the <a href="https://github.com/alx-tools/Betty/blob/master/betty-style.pl">..betty-style.pl</a>. It will be checked using <a href="https://github.com/alx-tools/Betty/blob/master/betty-doc.pl">Betty-doc.pl</a></li>
+      <li>You are only allowed to use the printf function of the standard library. Any call to another function like strdup, malloc, … is forbidden.  </li>
+      <li>The prototypes of all your functions should be included in your header file called search_algos.h  </li>
+      <li> A README.md file, at the root of the folder of the project, is mandator</li>
+   </i>
    </ol>
 
    <h2 style="color: #FF645F; margin-left: 40px">
